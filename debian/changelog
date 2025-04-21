@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+vncdotool (1.2.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Source only upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Fri, 24 May 2024 20:30:37 +0100
+
+vncdotool (1.2.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1027756)
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Sat, 16 Mar 2024 12:23:44 +0000
