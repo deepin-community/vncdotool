@@ -1,0 +1,11 @@
+*.pyc
+build
+dist
+MANIFEST
+vncdotool.egg-info
+.coverage
+.tox
+docs/_build
+
+*~
+#*

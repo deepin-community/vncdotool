@@ -1,4 +1,10 @@
 #!/usr/bin/make -f
 
+export PYBUILD_NAME=vncdotool
+
 %:
-	dh $@
+	dh $@ --buildsystem=pybuild
+
+override_dh_installman:
+	PYTHONPATH=. python3 -m sphinx -b man $(SPHINXOPTS) docs/ build/man
+	dh_installman
